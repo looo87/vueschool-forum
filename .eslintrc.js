@@ -16,6 +16,7 @@ module.exports = {
 
   rules: {
     'vue/script-indent': ['error', 4, { baseIndent: 0 }],
+    'max-len': ["warn", { "code": 120 }],
     'indent': 'off',
     'no-unused-vars': 'warn',
     'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
